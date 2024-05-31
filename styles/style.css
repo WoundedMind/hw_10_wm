@@ -44,6 +44,10 @@ header .container {
     font-size: var(--font-xs);
 }
 
+
+
+
+
 .btn1 {
     border: #00000080 1px solid;
     width: 120px;
@@ -53,6 +57,12 @@ header .container {
     cursor: pointer;
     font-size: var(--font-s);
     font-weight: 600;
+    transition: 0.3ms;
+}
+.btn1:hover {
+    border: 1px solid #A4A14A;
+    background-color: #A4A14A;
+    color: white;
 }
 
 .btn2 {
@@ -66,7 +76,16 @@ header .container {
     cursor: pointer;
     font-size: var(--font-s);
     font-weight: 600;
+    transition: 0.3ms;
 }
+
+.btn2:hover {
+    border: 1px solid #FFC500;
+    background-color: #FFC500;
+}
+
+
+
 
 main .container {
     max-width: 1400px;
@@ -121,4 +140,24 @@ h3 {
 h2 {
     font-size: var(--font-xxl);
     font-weight: 600;
+}
+
+.recommendations {
+    background-color: #FF9C7D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    gap: 70px
+}
+
+.recommendations h2{
+    max-width: 700px;
+    text-align: center;
+}
+
+.rec__logos {
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
